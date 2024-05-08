@@ -1,0 +1,126 @@
+* {
+  margin: 15px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("shop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: soace-between;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 35px;
+  color: #fff;
+}
+
+img {
+  width: 75px;
+  height: 20%;
+}
+
+.navbar-menu a {
+  color: #fff;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  padding: 12px 15px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navbar-menu a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 15px;
+}
+
+button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(intro-1565385738.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card1 {
+  background-image: url("The Daily Buzz Hat.png");
+}
+
+.card2 {
+  background-image: url("The Daily Buzz Coffee Mug.png");
+}
+
+.card3 {
+  background-image: url("The Daily Buzz Shirt.png");
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h5 {
+  color: #3C280D;
+  text-shadow: 0 0 5px;
+}
+
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 15px;
+  color: #000;
+}
